@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
             "{error e           |6.0   | RANSAC reprojection error                                          }"
             "{confidence c      |0.99  | RANSAC confidence                                                  }"
             "{inliers in        |30    | minimum inliers for Kalman update                                  }"
-            "{method  pnp       |0     | PnP method: (0) ITERATIVE - (1) EPNP - (2) P3P - (3) DLS - (5) AP3P}"
+            "{method  pnp       |0     | PnP method: (0) ITERATIVE - (1) EPNP - (2) P3P - (3) DLS - (5) AP3P - (9) NPNP}"
             "{fast f            |true  | use of robust fast match                                           }"
             "{feature           |ORB   | feature name (ORB, KAZE, AKAZE, BRISK, SIFT, SURF, BINBOOST, VGG)  }"
             "{FLANN             |false | use FLANN library for descriptors matching                         }"

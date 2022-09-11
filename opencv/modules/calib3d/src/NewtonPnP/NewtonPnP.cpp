@@ -141,5 +141,7 @@ bool NewtonPnP::newton_pnp(const vector<Point2d> &scene,
     frame_pose.t.convertTo(cv_t, CV_64F);
     projectPoints(obj, cv_R, cv_t, this->camera_matrix, cv::Mat(), scene_reproject);
 
+    //std::cout<<"this is newton pnp solver method number 9"<<endl;
+
     return true;                                                  
 }
