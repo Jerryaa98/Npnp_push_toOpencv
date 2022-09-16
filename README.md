@@ -21,3 +21,9 @@ in order to run the program:-
 4) make -j4
 5) bin/example_tutorial_pnp_registration
 6) bin/example_tutorial_pnp_detection --method=9
+
+Video Demo can be found here:-
+https://www.youtube.com/watch?v=FVppFUGSOIQ&ab_channel=TheJojitto95
+
+for comparison the opencv pnp solver:-
+https://www.youtube.com/watch?v=49CvyrOW9gM&ab_channel=TheJojitto95
