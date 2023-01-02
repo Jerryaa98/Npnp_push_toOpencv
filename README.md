@@ -2,9 +2,11 @@
 
 This is an cloned OpenCV directory with Newton Pnp solver in it.
 
+This project was done in association with the robotics lab in the university during summer 2021. 
+
 Newton PNP can be found here: https://github.com/rbdlabhaifa/Newton-PnP
 
-in order to run the program:-
+in order to run the program on ubuntu/linux OS:-
 1) clone the directory
 2) cd ~/opencv_build/opencv/build
 3) cmake -D CMAKE_BUILD_TYPE=RELEASE \
